@@ -1,0 +1,19 @@
+:root {
+
+}
+
+* {
+    
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.header__logo {
+    width: 10%;
+}
+
+.header__items {
+    color: white;
+}
