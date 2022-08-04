@@ -10,12 +10,12 @@
         <title>CARLOS PLASCENCIA</title>
     </head>
     <body>
-        <div id="superContainer" class="superContainer container">
-            <header id="header" class="header">
+        <div id="superContainer" class="superContainer container-md">
+            <header id="header" class="header navbar sticky-top bg-dark">
                 <img src="IMG/CP-Logo.png" alt="Logo Personal" id="header__logo" class="header__logo">
-                <ul id="header__navegacion">
-                    <li id="header__items" class="header__items"><a href="#main__presentation" class="header__links">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                <ul id="header__navegacion" class="header__navegacion list-group list-group-horizontal-sm" role="tablist">
+                    <li id="header__items" class="header__items list-group-item list-group-item-action list-group-item-dark active" role="tab"><a href="#main__presentation" class="header__links">
+                        <svg class="header__svgPresentacion" version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000"
                         preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -41,15 +41,15 @@
                         </svg>
                         MAIN
                     </a></li>
-                    <li id="header__items" class="header__items"><a href="#main__aboutMe" class="header__links">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                    <li id="header__items" class="header__items list-group-item list-group-item-action list-group-item-dark" role="tab"><a href="#main__aboutMe" class="header__links">
+                        <svg class="header__svgAboutMe" xmlns="http://www.w3.org/2000/svg" width="20.000000pt" height="20.000000pt" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
                             <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
                             <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                         </svg>
                         ABOUT ME
                     </a></li>
-                    <li id="header__items" class="header__items"><a href="#main__experience" class="header__links">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <li id="header__items" class="header__items list-group-item list-group-item-action list-group-item-dark" role="tab"><a href="#main__experience" class="header__links">
+                        <svg class="header__svgExperience" version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000"
                         preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -137,8 +137,8 @@
                         </svg>
                         EXPERIENCE
                     </a></li>
-                    <li id="header__items" class="header__items"><a href="#main__skills" class="header__links">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <li id="header__items" class="header__items list-group-item list-group-item-action list-group-item-dark" role="tab"><a href="#main__skills" class="header__links">
+                        <svg class="header__svgSkills" version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000"
                         preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -209,8 +209,8 @@
                         </svg>
                         SKILLS
                     </a></li>
-                    <li id="header__items" class="header__items"><a href="#main__contactMe" class="header__links">
-                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <li id="header__items" class="header__items list-group-item list-group-item-action list-group-item-dark" role="tab"><a href="#main__contactMe" class="header__links">
+                        <svg class="header__svgContactMe" version="1.0" xmlns="http://www.w3.org/2000/svg"
                         width="20.000000pt" height="20.000000pt" viewBox="0 0 512.000000 512.000000"
                         preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -353,7 +353,7 @@
                         <h2 id="main__mySkills" class="main__mySkills">MY SKILLS</h2>
                         <div id="main__firstStack" class="main__firstStack">
                             <div id="main__HTML" class="main__HTML">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgHTML svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 448.2 512" style="enable-background:new 0 0 448.2 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0HTML{fill:#FC490B;}
@@ -384,8 +384,8 @@
                                         c2.3,20.9,4.5,41.2,6.7,61.9c68.1,0,136.2,0,204.9,0c-0.4,7.7-0.6,14.8-1.1,22C355.6,240,354.8,247.2,354.2,254.9z"/>
                                 </svg>
                             </div>
-                            <div id="main__CSS" class="main__CSS">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            <div id="main__CSS" class="main__CSS svgSettings">
+                                <svg class="main__svgCSS" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 viewBox="0 0 447.5 512" style="enable-background:new 0 0 447.5 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0CSS{fill:#2196F3;}
@@ -418,8 +418,8 @@
                                         C247.8,148.5,191.1,148.5,133.9,148.5z"/>
                                 </svg>
                             </div>
-                            <div id="main__JS" class="main__JS"> 
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            <div id="main__JS" class="main__JS svgSettings"> 
+                                <svg class="main__svgJS" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 511.8 512" style="enable-background:new 0 0 511.8 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0JS{fill:#FFDF00;}
@@ -448,7 +448,7 @@
                                 </svg>
                             </div>
                             <div id="main__GITHUB" class="main__GITHUB">
-                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                                <svg class="main__svgGITHUB svgSettings" version="1.0" xmlns="http://www.w3.org/2000/svg"
                                     width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                                     preserveAspectRatio="xMidYMid meet">
                                     <metadata>
@@ -477,7 +477,7 @@
                                 </svg>
                             </div>
                             <div id="main__SQL" class="main__SQL">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgSQL svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 511.8 512" style="enable-background:new 0 0 511.8 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0SQL{fill:#00758F;}
@@ -509,7 +509,7 @@
                                 </svg>
                             </div>
                             <div id="main__JAVA" class="main__JAVA">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgJAVA svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 380.4 512" style="enable-background:new 0 0 380.4 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0JAVA{fill:#DB380E;}
@@ -583,7 +583,7 @@
                         </div>
                         <div id="main__secondStack" class="main__secondStack">
                             <div id="main__C-SHARP" class="main__C-SHARP">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgC-SHARP svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 455.9 512" style="enable-background:new 0 0 455.9 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0C-SHARP{fill:#B14796;}
@@ -635,7 +635,7 @@
                                 </svg>
                             </div>
                             <div id="main__C-PLUSPLUS" class="main__C-PLUSPLUS">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgC-PLUSPLUS svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 456.2 512" style="enable-background:new 0 0 456.2 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0C-PP{fill:#659AD2;}
@@ -683,7 +683,7 @@
                                 </svg>
                             </div>
                             <div id="main__PYTHON" class="main__PYTHON">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgPYTHON svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 506.1 512" style="enable-background:new 0 0 506.1 512;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0PYTHON{fill:#FFD43B;}
@@ -815,7 +815,7 @@
                                 </svg>
                             </div>
                             <div id="main__PHP" class="main__PHP">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgPHP svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 511.9 269.7" style="enable-background:new 0 0 511.9 269.7;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0PHP{fill:#494D8A;}
@@ -960,7 +960,7 @@
                                 </svg>
                             </div>
                             <div id="main__KOTLIN" class="main__KOTLIN">
-                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgKOTLIN svgSettings" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 448 384" style="enable-background:new 0 0 448 384;" xml:space="preserve">
                                     <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
                                         <path d="M135.1,5101c-22-10-54-34-72-52c-68-72-63,39-63-1529s-5-1457,63-1529c18-18,50-42,72-52c38-18,81-19,818-19
@@ -981,7 +981,7 @@
                                 </svg>
                             </div>
                             <div id="main__POSTGRESQL" class="main__POSTGRESQL">
-                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                <svg class="main__svgPOSTGRES svgSettings" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     viewBox="0 0 468.2 482" style="enable-background:new 0 0 468.2 482;" xml:space="preserve">
                                     <style type="text/css">
                                         .st0POSTGRES{fill:#FBFCFC;}

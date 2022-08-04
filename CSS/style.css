@@ -9,13 +9,14 @@
 }
 
 body {
-    background-color: blueviolet;
+    background-color: gray;
 }
 
 .header__logo {
     width: 10%;
 }
 
-.header__items {
-    color: white;
+.svgSettings {
+    width: 20.000000pt;
+    height: 20.000000pt;
 }
