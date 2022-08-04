@@ -1,9 +1,11 @@
 :root {
-
+    --primary-black: #000;
 }
 
 * {
-    
+    list-style: none;
+    text-decoration: none;
+    color: var(--primary-black);
 }
 
 body {
